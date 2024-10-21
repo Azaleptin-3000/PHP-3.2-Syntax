@@ -1,0 +1,48 @@
+h1 {
+    font-size: 30px;
+    color: rgb(57, 13, 94);
+    font-weight: lighter;
+    text-align: center;
+    padding-top: 10px;
+}
+
+ h2 {
+    font-size: 32px;
+    color: rgb(158, 3, 189);
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 10px;
+}
+
+html, body {
+    height: 100%; /* Задаем высоту для body */
+    margin: 0; /* Убираем отступы */
+    display: flex;
+    flex-direction: column; /* Располагаем элементы по вертикали */
+    box-sizing: border-box; /* Включаем padding и border в общую высоту */
+    background-color: rgb(232, 228, 246); /* Задаём цвет фона всей страницы */
+}
+
+*, *::before, *::after {
+    box-sizing: inherit; /* Наследуем box-sizing для всех элементов */
+}
+
+.wrapper {
+        display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Заставляем .wrapper занимать всю высоту экрана */
+}
+
+.content {
+    flex: 1; /* Контент будет занимать оставшееся пространство */
+}
+
+
+.stripe-footer {
+    background: #541964; /* Цвет фона футера */
+    color: #b201b5; /* Цвет текста футера */
+    text-align: center; /* Центрируем текст */
+    padding: 0.4rem; /* Убираем боковые отступы */
+    width: 100%; /* Футер занимает всю ширину */
+    margin-top: auto; /* Прижимаем футер к низу страницы */
+}

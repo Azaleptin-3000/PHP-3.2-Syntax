@@ -1,0 +1,32 @@
+{
+    "files.autoSave": "afterDelay",
+    "workbench.startupEditor": "none",
+    "workbench.editor.defaultBinaryEditor": "default",
+    "files.defaultLanguage": "Russian",
+    "terminal.integrated.sendKeybindingsToShell": true,
+    "terminal.integrated.commandsToSkipShell": [
+        ""
+    ],
+    "security.workspace.trust.untrustedFiles": "open",
+    "gitlens.views.repositories.files.layout": "list",
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "gitlens.gitCommands.skipConfirmations": [
+        "fetch:command",
+        "stash-push:command",
+        "remote-add:command"
+    ],
+    "git.confirmSync": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "workbench.sideBar.location": "right",
+    "editor.minimap.enabled": false,
+    "workbench.colorCustomizations": {
+
+    },
+    "workbench.preferredHighContrastColorTheme": "Default Dark Modern",
+    "php.validate.executablePath": "",
+    "editor.quickSuggestions": {
+        "other": "off"
+    },
+    "editor.hover.enabled": false
+}
